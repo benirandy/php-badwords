@@ -7,13 +7,16 @@
     <title>PHP Badwords</title>
 </head>
 <body>
-    
 <form action="censura.php" method="GET">
-<label for="paragrafo">Paragrafo da censurare:</label>
-<input type="text" id="paragrafo"name="paragrafo"/>
+<div>
+    <label for="paragrafo">Paragrafo da censurare:</label>
+    <input type="text" id="paragrafo"name="paragrafo"/>
+</div>
 
-<label for="censura">Paragrafo da censurare:</label>
-<input type="text" id="censura"name="censura"/>
+<div>
+    <label for="censura">Parola da censurare:</label>
+    <input type="text" id="censura"name="censura"/>
+</div>
 
 <button type="type">Enter</button>
 </form>
